@@ -27,3 +27,34 @@ class MasterpieceItemDecorator < ItemDecorator
 		@item.description + "Masterpiece"
 	end
 end
+
+class Item
+	attr_reader :price, :description
+	def initialize
+		@price = 10
+		@description = "Item"
+	end
+	
+	def use
+		"do something"
+	end
+end
+
+
+#sample run
+
+item = Item.new
+magic_item = MagicItemDecorator.new(item)
+puts magic_item.price
+
+puts magic_item.description
+
+
+masterpiece_item = MasterpieceItemDecorator.new(item)
+puts masterpiece_item.price
+
+puts masterpiece_item.description
+
+item.use
+magic_item.use
+masterpiece_item.use
