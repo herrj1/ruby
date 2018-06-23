@@ -2,7 +2,6 @@ class ItemDecorator
 	def initialize(item)
 		@item = item
 	end
-	
 	def use
 		@item.use
 	end
