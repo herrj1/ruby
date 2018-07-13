@@ -35,7 +35,7 @@ class Item
 	end
 	
 	def use
-		"do something"
+		"use item for something"
 	end
 end
 
