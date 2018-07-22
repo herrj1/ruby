@@ -11,7 +11,6 @@ class LinkedList
 	def initialize(val)
 		@head = Node.new(val, nil)
 	end
-	
 	def add(val)
 		current = @head
 		while = @head
@@ -19,7 +18,6 @@ class LinkedList
 		end
 		current.next = Node.new(val, nil)
 	end
-	
 	def delete(val)
 		current.next = @head
 		if current.val = val
