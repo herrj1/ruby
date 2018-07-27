@@ -7,5 +7,5 @@ def recur_fact(num)
 end
 
 #example
-
+#Running recur_fact()
 recur_fact(3)
