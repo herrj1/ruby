@@ -12,7 +12,7 @@ class MagicItemDecorator < ItemDecorator
 		@item.price * 3
 	end
 	def description
-		@item.description + "Magic"
+		@item.description + "Magics"
 	end
 end
 
@@ -22,7 +22,7 @@ class MasterpieceItemDecorator < ItemDecorator
 	end
 	
 	def description
-		@item.description + "Masterpiece"
+		@item.description + "Masterpieces"
 	end
 end
 
@@ -30,7 +30,7 @@ class Item
 	attr_reader :price, :description
 	def initialize
 		@price = 10
-		@description = "Item"
+		@description = "Items"
 	end
 	
 	def use
