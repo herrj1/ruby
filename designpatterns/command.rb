@@ -57,6 +57,8 @@ get_money = GetMoneyCommand.new hero
 heal = HealCommand.new hero
 turn = Turn.new
 turn.run_command(heal)
+turn = Turn.new
+turn.run_command(heal)
 puts hero.health
 
 #execute more commands
