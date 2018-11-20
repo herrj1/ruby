@@ -26,3 +26,4 @@ end
 numbers = LinkedList.new
 numbers.add(30)
 numbers.add(50)
+numbers.add(23)
