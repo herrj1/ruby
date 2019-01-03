@@ -29,8 +29,7 @@ end
 class Tile; end
 class Monster; end
 
-
-#sample use
+#sample uses
 
 builder = BoardBuilder.new 2, 3
 puts builder.board
