@@ -32,7 +32,6 @@ class Queue
 	end
 	
 	private
-	
 	def empty?
 		@head == -1 and @tail == 0
 	end
