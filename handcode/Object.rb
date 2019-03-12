@@ -34,8 +34,8 @@ class Box
 	
 	def printDetails()
 		#Box.setBrand()
-		puts "Box brand is: #@@brand"
-		puts "Box size is: h #@height X W #@width"
+		puts "Box brand : #@@brand"
+		puts "Box size : h #@height X W #@width"
 		
 	end
 end
