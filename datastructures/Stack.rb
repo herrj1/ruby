@@ -34,7 +34,6 @@ class Stack
 	end
 	
 	private
-	
 	def full?
 		@top == (@size -1 )
 	end
