@@ -39,7 +39,7 @@ class Item
 end
 
 
-#sample run
+#sample runs
 
 item = Item.new
 magic_item = MagicItemDecorator.new(item)
