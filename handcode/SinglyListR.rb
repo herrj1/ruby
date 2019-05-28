@@ -6,7 +6,6 @@ class Node
 		@next = next_node
 	end
 end
-
 class LinkedList
 	def initialize(val)
 		@head = Node.new(val, nil)
@@ -31,7 +30,6 @@ class LinkedList
 			end
 		end
 	end
-	
 	def return_list
 		elements = []
 		current = @head
