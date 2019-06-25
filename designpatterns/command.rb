@@ -20,7 +20,6 @@ class Hero
 		@health = 100
 	end
 end
-
 class GetMoneyCommand
 	def initialize(hero)
 		@hero = hero
@@ -34,7 +33,7 @@ class GetMoneyCommand
 		@hero.money -= 10
 	end
 end
-
+#heal commands
 class HealCommand
 	def initialize(hero)
 		@hero = hero
@@ -64,6 +63,6 @@ puts hero.health
 turn.run_command(get_money)
 puts hero.money
 
-#undo commands
+#undo command
 turn.undo_command
 puts hero.money
