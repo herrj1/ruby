@@ -35,7 +35,6 @@ class Queue
 	def empty?
 		@head == -1 and @tail == 0
 	end
-	
 	def full?
 		@tail.abs == (@size)
 	end
