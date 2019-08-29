@@ -28,7 +28,6 @@ class Stack
 	def size
 		@size
 	end
-	
 	def look
 		@store[@top]
 	end
@@ -37,7 +36,6 @@ class Stack
 	def full?
 		@top == (@size -1 )
 	end
-	
 	def empty?
 		@top == -1
 	end
