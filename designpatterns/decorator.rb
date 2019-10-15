@@ -37,10 +37,7 @@ class Item
 		"use item for something"
 	end
 end
-
-
 #sample runs
-
 item = Item.new
 magic_item = MagicItemDecorator.new(item)
 puts magic_item.price
