@@ -27,12 +27,12 @@ end
 class Tile; end
 class Monster; end
 
-#sample usess
+#sample uses
 
 builder = BoardBuilder.new 2, 3
 puts builder.board
 
-# Draw the board
+# Draw the boards
 board = builder.board
 puts board.width
 
