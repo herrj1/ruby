@@ -19,7 +19,7 @@ class LinkedList
 	end
 end
 
-#Exampless:
+#Examples:
 numbers = LinkedList.new
 numbers.add(30)
 numbers.add(50)
