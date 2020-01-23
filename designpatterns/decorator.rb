@@ -12,7 +12,7 @@ class MagicItemDecorator < ItemDecorator
 		@item.price * 3
 	end
 	def description
-		@item.description + "Magics"
+		@item.description + "Magic"
 	end
 end
 
