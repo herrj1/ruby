@@ -24,11 +24,9 @@ class Queue
 			self
 		end
 	end
-	
 	def size
 		@size
 	end
-	
 	private
 	def empty?
 		@head == -1 and @tail == 0
