@@ -18,6 +18,9 @@ class Hero
 		@health = 100
 	end
 end
+
+
+
 class GetMoneyCommand
 	def initialize(hero)
 		@hero = hero
