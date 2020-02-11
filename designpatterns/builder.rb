@@ -10,9 +10,11 @@ class BoardBuilder
 	def add_tiles(n)
 		n.times{ @board.tiles << Tile.new }
 	end
+	
 	def add_monsters(n)
 		n.times{ @board.monsters << Monster.new }
 	end
+	
 	def board
 		@board
 	end
@@ -27,7 +29,7 @@ end
 class Tile; end
 class Monster; end
 
-#sample uses
+#sampled uses
 
 builder = BoardBuilder.new 2, 3
 puts builder.board
