@@ -7,6 +7,12 @@ class ItemDecorator
 	end
 end
 
+
+
+
+
+
+
 class MagicItemDecorator < ItemDecorator
 	def price
 		@item.price * 3
