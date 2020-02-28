@@ -7,7 +7,7 @@ def recur_map(array, f)
 	end
 end
 
-##examples
+#example
 recur_map([1,2,3,4,5,6], ->(elem){
 	elem * elem
 })
