@@ -27,9 +27,14 @@ class Stack
 			self
 		end
 	end
+
+
 	def size
 		@size
 	end
+
+
+
 	def look
 		@store[@top]
 	end
