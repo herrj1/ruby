@@ -4,9 +4,6 @@ class Queue
 		@store = Array.new(@size)
 		@head, @tail = -1, 0
 	end
-	
-	
-	
 	def dequeue
 		if empty?
 			nil
