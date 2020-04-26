@@ -4,10 +4,6 @@ class Stack
 		@store = Array.new(@size)
 		@top = -1
 	end
-	
-	
-	
-	
 	def pop
 		if empty?
 			nil
