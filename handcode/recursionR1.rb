@@ -6,6 +6,6 @@ def recur_fact(num)
 	end
 end
 
-#example
+#examples
 #Running recur_fact()
 recur_fact(3)
