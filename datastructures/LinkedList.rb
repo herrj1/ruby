@@ -25,3 +25,4 @@ numbers = LinkedList.new
 numbers.add(30)
 numbers.add(50)
 numbers.add(23)
+numbers.add(25)
