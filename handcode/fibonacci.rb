@@ -1,5 +1,6 @@
 def recur_fib(n)
-	acc = [0,1]
+	acc = [0,1, 2]
+	
 	f = ->(acc) {
 		if acc.size = n
 			acc
