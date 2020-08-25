@@ -10,14 +10,8 @@ class Turn
 		@commands.pop.unexecute
 	end
 end
-
-
-
-
-
 class Hero
 	attr_accessor :money, :health
-	
 	def initialize
 		@money = 0
 		@health = 100
