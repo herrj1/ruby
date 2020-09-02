@@ -15,8 +15,6 @@ class Queue
 			dequeued
 		end
 	end
-	
-	
 	def enqueue(element)
 		if full? or element.nil?
 			nil
