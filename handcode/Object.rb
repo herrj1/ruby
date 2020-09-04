@@ -1,6 +1,6 @@
 #!/usr/bin/ruby -w
 
-#define a classes
+#define a class
 class Box
 	@@brand = ''
 	#constructor method
