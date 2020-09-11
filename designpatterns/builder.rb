@@ -10,9 +10,11 @@ class BoardBuilder
 	def add_tiles(n)
 		n.times{ @board.tiles << Tile.new }
 	end
+	
 	def add_monsters(n)
 		n.times{ @board.monsters << Monster.new }
 	end
+	
 	def board
 		@board
 	end
@@ -20,6 +22,7 @@ end
 
 class Board
 	attr_accessor :width, :height, :tiles, :monsters
+	
 	def initialize
 	end
 end
