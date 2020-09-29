@@ -5,7 +5,6 @@ class Node
 		@next = next_node
 	end
 end
-
 class LinkedList
 	def initialize(value)
 		@head = Node.new(value)
@@ -19,8 +18,7 @@ class LinkedList
 		current.next_node = Node.new(value)
 	end
 end
-
-#Examples:
+#Examples
 numbers = LinkedList.new
 numbers.add(30)
 numbers.add(50)
