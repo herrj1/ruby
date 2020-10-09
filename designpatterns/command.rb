@@ -10,6 +10,7 @@ class Turn
 		@commands.pop.unexecute
 	end
 end
+
 class Hero
 	attr_accessor :money, :health
 	def initialize
@@ -17,8 +18,6 @@ class Hero
 		@health = 100
 	end
 end
-
-
 
 class GetMoneyCommand
 	def initialize(hero)
